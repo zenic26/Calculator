@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:white;
+}
+body {
+   background-color: #3C3F41;
+}
+
+
+.con{
+    justify-content: center;
+    width:210px;
+    height: 265px;
+    align-items: center;
+    margin: 25%;
+    border: 1px solid black;
+    box-shadow: 4px 2px 5px black ;
+    background-color: black;
+    background: linear-gradient(135deg, #2A3439, #43464B); /* Gunmetal to Steel Gray */
+    color: #ECECEC;
+    
+    
+}
+.c{
+    padding: 100px;
+}
+input{
+    width: 100%;
+    border: none;
+    background:transparent;
+    height: 50px;
+    background-color: #1C1F22;
+    font-size: large;
+    text-align: right;
+    
+}
+button{
+    border: 1px black solid;
+    text-align: center;
+    border-radius: 100%;
+    width: 20%;
+    height:25px;
+    margin: 5px 3px;
+    background-color: transparent;
+    color: white;
+}
+div{
+    
+    text-align: center;
+    padding: 3px;
+}
+.num:hover{
+    background-color: grey;
+    box-shadow: 4px 2px 5px black ;
+}
+.num:active{
+    background-color: rgb(85, 83, 83);
+    box-shadow: none;
+}
+.num{
+    background-color:#C0C0C0 ;
+}
+.fun{
+    background-color: #7E8C8D;
+}
+.equ{
+    background-color:#5B9EA3 ;
+}
+.fun:hover{
+    background-color: #64797b;
+    box-shadow: 4px 2px 5px black ;
+}
+.fun:active{
+    background-color: #496c6f;
+    box-shadow: none ;
+}
+.equ:hover{
+    background-color:#3d7e82 ;
+    box-shadow: 4px 2px 5px black ;
+}
+.equ:active{
+    background-color:#134c50 ;
+    box-shadow: none ;
+}
